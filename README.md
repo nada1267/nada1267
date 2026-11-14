@@ -23,10 +23,10 @@
 
 | Pillar | Details |
 | :--- | :--- |
-| **Current Role** | AI Engineer & Data Science Intern @ **Digital Egypt Builders Initiative (DEBI)** |
-| **Core Expertise** | Large Language Models (LLMs), RAG Architectures, Agentic Workflows, Vision-Language Fine-Tuning |
-| **Education** | BSc in Computer Engineering, Zagazig University *(2020–2024)* — **Excellent with Honors (88.79%)** |
-| **Location** | Cairo, Egypt |
+| **Role** | AI Engineer |
+| **Core Expertise** | Large Language Models (LLMs), RAG Architectures, Agentic Workflows, NLP, ML Deployment |
+| **Education** | BSc in Computer Science, Zagazig University *(2020–2024)* — **Excellent with Honors (88.79%)** |
+| **Location** | Egypt |
 
 ---
 
@@ -36,54 +36,56 @@
 
 | Category | Technologies & Frameworks |
 | :--- | :--- |
-| **Languages & Core** | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" /> |
-| **AI & LLM Ecosystem** | <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" /> <img src="https://img.shields.io/badge/LangGraph-8B5CF6?style=flat-square&logo=langgraph&logoColor=white" /> <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /> <img src="https://img.shields.io/badge/ChromaDB-EC4899?style=flat-square" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Dify-1677FF?style=flat-square" /> |
-| **Backend & MLOps** | <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" /> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /> |
+| **Languages & Core** | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /> |
+| **AI & LLM Ecosystem** | <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" /> <img src="https://img.shields.io/badge/LangGraph-8B5CF6?style=flat-square" /> <img src="https://img.shields.io/badge/ChromaDB-EC4899?style=flat-square" /> <img src="https://img.shields.io/badge/Dify-1677FF?style=flat-square" /> <img src="https://img.shields.io/badge/NLTK-154F5B?style=flat-square" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" /> <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" /> |
+| **Backend & MLOps** | <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" /> <img src="https://img.shields.io/badge/AWS%20SageMaker-FF9900?style=flat-square&logo=amazonaws&logoColor=white" /> <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /> |
 
 </div>
 
 ---
 
-### 🚀 Featured Production Projects
+### 🚀 Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 #### 🤖 Agentic AI Operations Assistant
-*Autonomous multi-agent workflow for enterprise operations.*
-- **LangGraph & FastAPI:** Orchestrates complex stateful workflows for order lookup, shipment analysis, and automated decisions.
-- **RAG Pipeline:** Grounded in enterprise documentation and policies using LangChain and ChromaDB.
-- **Tech Stack:** Python, LangGraph, FastAPI, PostgreSQL, Docker.
+*Agentic workflow that automates customer service decisions.*
+- **LangGraph Agents:** Tool-based workflows for order lookup, shipment analysis, delay detection, and policy-driven compensation recommendations.
+- **RAG Pipeline:** Grounded in business policies using LangChain and ChromaDB for context-aware responses.
+- **Testing:** Automated test cases validating agent reasoning, policy compliance, and compensation decisions across multiple scenarios.
+- **Tech Stack:** Python, LangChain, LangGraph, ChromaDB, Docker.
 
 </td>
 <td width="50%" valign="top">
 
-#### 🏛️ AI Regulatory & Contract Compliance
-*Automated legal compliance checking system for banking data.*
-- **Document Intelligence:** Parses and aligns contract clauses against national laws and regulatory frameworks.
-- **Evaluation Pipelines:** Built custom benchmarking scripts to measure numerical extraction accuracy and track hallucination rates.
-- **Tech Stack:** LLMs, Python, RAG, Custom Text Alignment.
+#### 📄 End-to-End AI Resume Screening System
+*Production-grade system that matches resumes to job descriptions.*
+- **NLP Pipeline:** Text mining and preprocessing architecture built with NLTK.
+- **Model:** Reached **80%** accuracy in classifying and matching candidates.
+- **MLOps:** Containerized and deployed with Flask, Docker, and Kubernetes, with CI/CD pipelines automating build and deployment.
+- **Tech Stack:** Python, NLTK, Flask, Docker, Kubernetes.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### ⚡ Synthetic FTIR Gas Mixture Spectra Dataset
-*High-volume scientific data generation for chemical analysis.*
-- **Dataset Creation:** Generated **3,000,000** synthetic spectra across 12 target gas molecules using Beer-Lambert absorption physics and HITRAN line-by-line data.
-- **Storage & Distribution:** Hosted across 100 HDF5 files on GitHub and Google Drive.
-- **Tech Stack:** Python, HDF5, NumPy, Physics-based modeling.
+#### 🧠 EEG-Based Mental Illness Classification
+*Graduation project: ML diagnostic system using EEG signals.*
+- **Signal Processing:** Data preprocessing, artifact removal, and feature extraction from EEG signals and symptom data.
+- **Results:** Achieved **98%** classification accuracy.
+- **Tech Stack:** Python, Machine Learning.
 
 </td>
 <td width="50%" valign="top">
 
-#### 👁️ Vision-Language Model Fine-Tuning
-*OCR and structured data extraction from complex legal gazettes.*
-- **Model Adaptation:** Fine-tuned **Gemma 3 4B IT** using LoRA adapters on Kaggle T4 GPUs.
-- **Evaluation:** Developed automated validation pipelines to compare model extractions against ground-truth legal text.
-- **Tech Stack:** PyTorch, Hugging Face, PEFT (LoRA), Colab.
+#### ☁️ ML Workflow on AWS SageMaker
+*End-to-end cloud ML pipeline for Scones Unlimited.*
+- **Pipeline:** Cloud-native data preprocessing, model training, and hyperparameter tuning.
+- **Deployment:** Endpoint deployment as a production-ready, automated workflow.
+- **Tech Stack:** AWS SageMaker, Python, MLOps.
 
 </td>
 </tr>
@@ -93,10 +95,17 @@
 
 ### 💼 Professional Journey
 
-- **Nov 2025 – Present:** **Data Science & Cloud Computing Intern** @ Digital Egypt Builders Initiative (DEBI) *(Focus: Apache Spark, MLOps, and Cloud Pipelines)*
-- **Jun 2026 – Aug 2026:** **Part-Time AI Instructor** @ iSchool / Digital Egypt Cubs Initiative (DECI, MCIT)
-- **2020 – 2024:** **BSc in Computer Engineering** @ Zagazig University *(Graduated with Excellent with Honors, GPA 3.7/4.0)*
-- **Community & Leadership:** Team Leader at InnoEgypt Entrepreneurship Program & active contributor to community initiatives (Life Makers / صناع الحياة).
+- **Jun 2026 – Aug 2026:** **Part-Time AI Instructor** @ iSchool / Digital Egypt Cubs Initiative (DECI, MCIT) *(Project-based AI and programming training)*
+- **Nov 2025 – Aug 2026:** **Data Science & Cloud Computing Intern** @ Digital Egypt Builders Initiative (DEBI) *(Focus: Apache Spark, MLOps, and Cloud Pipelines)*
+- **2020 – 2024:** **BSc in Computer Science** @ Zagazig University *(Excellent with Honors, GPA 3.7/4.0)*
+- **Community & Leadership:** Team Leader at InnoEgypt Entrepreneurship Program & volunteer with Life Makers / صناع الحياة.
 
 ---
 
+### 🏅 Certifications
+
+- **Sprints Generative AI and Innovation Certification** — Jun 2025
+- **AWS Machine Learning Engineer Training** — Sep 2024
+- **AWS AI Programming with Python** — Dec 2023
+
+---
